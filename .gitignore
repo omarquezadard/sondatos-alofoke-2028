@@ -1,0 +1,19 @@
+# Entornos y credenciales — NUNCA subir
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+*.key
+
+# Datos crudos con información individual — nunca en este repo (ver README)
+*comments_raw*
+*comments_clean*
+*comments_scored*
+*sample_to_label*
+data/raw/
+data/processed/*.parquet
+
+# Sistema
+.DS_Store
+.ipynb_checkpoints/

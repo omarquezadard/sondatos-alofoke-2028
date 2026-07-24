@@ -1,0 +1,119 @@
+study:
+  name: alofoke-2028
+  date_start: '2025-01-01'
+  date_end: '2026-07-11'
+  language: es
+youtube:
+  search_queries:
+  - Alofoke candidato presidencial
+  - Alofoke 2028
+  - Santiago Matías presidente
+  - Alofoke PRSC
+  - Alofoke política
+  - Santiago Matías candidatura
+  channels:
+  - name: Alofoke Radio Show
+    id: ''
+  - name: El Nuevo Diario RD
+    id: ''
+  - name: Noticias SIN
+    id: ''
+  - name: CDN 37
+    id: ''
+  max_videos_per_query: 50
+  max_comments_per_video: 2000
+relevance:
+  subject_keywords:
+  - alofoke
+  - santiago matias
+  - santiago matías
+  political_keywords:
+  - presidente
+  - presidencia
+  - candidato
+  - candidatura
+  - eleccion
+  - elección
+  - elecciones
+  - '2028'
+  - prsc
+  - reformista
+  - votar
+  - voto
+  - política
+  - politica
+  - firmas
+  - independiente
+  min_chars: 8
+events:
+- date: '2025-03-05'
+  label: Anuncia candidatura independiente (Alofoke Radio Show, Santiago)
+  short: Anuncio candidatura
+- date: '2025-11-29'
+  label: 'Declara rol ''tipo Elon Musk'': influir sin ser candidato'
+  short: Rol de influencia
+- date: '2026-06-21'
+  label: Tuit dominical + reacción nacional
+  short: Tuit viral
+- date: '2026-06-24'
+  label: PRSC abre puertas a su candidatura (Quique Antún)
+  short: PRSC abre puertas
+- date: '2026-07-06'
+  label: Fans piden inicio de campaña / vehículo rotulado
+  short: Presión de fans
+aspects:
+  politico:
+  - presidente
+  - candidato
+  - candidatura
+  - votar
+  - voto
+  - eleccion
+  - elección
+  - '2028'
+  - prsc
+  - gobierno
+  - país
+  - pais
+  - corrupcion
+  - corrupción
+  - firmas
+  entretenimiento:
+  - programa
+  - entrevista
+  - radio show
+  - reality
+  - musica
+  - música
+  - urbano
+  - contenido
+  - youtube
+bot_filter:
+  max_duplicate_text: 3
+  min_unique_chars: 4
+  max_comments_per_author_per_video: 10
+analysis:
+  aggregation: W
+  min_comments_per_bucket: 30
+  bootstrap_iterations: 2000
+  event_window_days: 14
+validation:
+  sample_size: 400
+  stratify_by:
+  - sentiment
+  - aspect
+brand:
+  name: SonDatos
+  company: SUBROSA
+  url: sondatos.do
+  colors:
+    background: '#FFFFFF'
+    positive: '#D6336C'
+    negative: '#6B2D8B'
+    neutral: '#8A7A85'
+    accent: '#B03070'
+    text: '#2A1A24'
+  font: Inter
+  ig_format:
+  - 1080
+  - 1350
